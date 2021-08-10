@@ -3,17 +3,15 @@ title: "Project Proposal"
 output: html_notebook
 ---
 
-(notice that you can reuse some of the sections below for the final project report)
+##Introduction
+Tampa weather is constantly changing throughout the year. I think the main factor for weather in Tampa is the temperature.
+If it's really hot you're going to get rain. If it's in the colder months your not going to get as much rain.
 
-## Section 1. Introduction
 
-Include a brief **introduction or motivation** here
+##Data Analysis Plan
+What month has the most amount of precipitation and does is have some of the hottest temperatures.
 
-## Section 2. Data Analysis Plan
+##  Data
 
-List any **initial questions** you plan to explore in this project. 
-
-## Section 3. Data
-
-Include a brief **description of your dataset** (source, available attributes, format, etc.)
+It's data about 2016 weather in Tampa. https://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data
 © 2021 GitHub, Inc.
