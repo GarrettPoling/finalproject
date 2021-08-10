@@ -2,12 +2,28 @@
 title: "Final Report for Intro to Data Science"
 output: html_notebook
 ---
+```{r}
+library(tidyverse)
+myurl  <- "https://raw.githubusercontent.com/reisanar/datasets/master/tpa_weather_16_17.csv?raw=true"
+mydata <- read_csv(myurl)
 
-This is where the final project report write-up goes. 
 
+```
 
-Before you submit, make sure everything runs as expected.
+###Introduction 
+Tampa weather is constantly changing throughout the year. I think the main factor 
+for weather in Tampa is the temperature. If it's really hot you're going to get rain. If it's in the colder months your not going to get as much rain.
 
-You can add sections as you see fit. Make sure you have a section called "Introduction" at the beginning and a section called "Conclusion" at the end. The rest is up to you!
+```{r}
+head(mydata)
+```
 
-_Make use of your knowledge of Markdown to appropriately typeset this report!_
+This shows the amount of rain every day in Tampa in 2016 and the max temperature
+and minimum temperature.
+
+```{r}
+ggplot(mydata)
+```
+
+###conclusion 
+The hotter months had more rain then the colder months.
