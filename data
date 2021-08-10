@@ -1,1 +1,5 @@
-
+```{r}
+library(tidyverse)
+myurl  <- "https://raw.githubusercontent.com/reisanar/datasets/master/tpa_weather_16_17.csv"
+mydata <- read_csv(myurl)
+```
