@@ -22,7 +22,8 @@ This shows the amount of rain every day in Tampa in 2016 and the max temperature
 and minimum temperature.
 
 ```{r}
-ggplot(mydata)
+ggplot(data = mydata)
+geom_bar(aes(x = precipitation, y = month))
 ```
 
 ###conclusion 
